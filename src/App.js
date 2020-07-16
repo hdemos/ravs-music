@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 // import {Route} from "react-router";
 import './App.css';
+import About from "./components/About";
 
 function App() {
   return (
@@ -47,13 +48,13 @@ function Home() {
   )
 }
 
-function About() {
-  return(
-      <div>
-        <h2>About</h2>
-      </div>
-  )
-}
+// function About() {
+//   return(
+//       <div>
+//         <h2>About</h2>
+//       </div>
+//   )
+// }
 
 function Music() {
   return(
