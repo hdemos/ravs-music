@@ -3,6 +3,9 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 // import {Route} from "react-router";
 import './App.css';
 import About from "./components/About";
+import Home from "./components/Home";
+import Music from "./components/Music";
+import Shows from "./components/Shows";
 
 function App() {
   return (
@@ -39,14 +42,14 @@ function App() {
   </Router>
   );
 }
-
-function Home() {
-  return(
-      <div>
-        <h2>Home</h2>
-      </div>
-  )
-}
+//
+// function Home() {
+//   return(
+//       <div>
+//         <h2>Home</h2>
+//       </div>
+//   )
+// }
 
 // function About() {
 //   return(
@@ -55,21 +58,21 @@ function Home() {
 //       </div>
 //   )
 // }
-
-function Music() {
-  return(
-      <div>
-        <h2>Music</h2>
-      </div>
-  )
-}
-
-function Shows() {
-  return(
-      <div>
-        <h2>Shows</h2>
-      </div>
-  )
-}
+//
+// function Music() {
+//   return(
+//       <div>
+//         <h2>Music</h2>
+//       </div>
+//   )
+// }
+//
+// function Shows() {
+//   return(
+//       <div>
+//         <h2>Shows</h2>
+//       </div>
+//   )
+// }
 
 export default App;
