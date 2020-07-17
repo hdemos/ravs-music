@@ -19,7 +19,6 @@ function App() {
           <li><Link to="/music">Music</Link></li>
           <li><Link to="/shows">Shows</Link></li>
         </ul>
-        <hr />
 
         <Switch>
           <Route exact path="/">
