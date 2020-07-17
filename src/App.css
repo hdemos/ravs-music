@@ -1,5 +1,6 @@
 /*@import url('./src/utils/styles/helpers.js');*/
 
+
 :root {
   --background: #121212;
   --surface: #121212;
@@ -14,6 +15,9 @@
   --dp16: #363636;
   --dp24: #383838;
   --text-light: #ffffff;
+
+  --primary-text: var(--text-light);
+  --secondary-text: var(--text-light);
 }
 
 /*
@@ -25,12 +29,16 @@ disabled=38%
 */
 
 h1{
+  font-family: 'Open Sans', sans-serif;
   color: var(--text-light);
 }
 h2{
+  font-family: 'Open Sans', sans-serif;
   color: var(--text-light);
+  font-size: 42px;
 }
 h3{
+  font-family: 'Open Sans', sans-serif;
   color: var(--text-light);
 }
 h4{
@@ -39,6 +47,7 @@ h4{
 h5{
   color: var(--text-light);
 }
+
 
 ul{
   display: flex;
@@ -103,16 +112,19 @@ Link{
 
 body{
   background-color: var(--background);
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text);
 }
+
 .main-body{
   align-items: center;
   align-content: center;
+
 }
 
 .page-content{
   display: inline-block;
   width: 90vw;
-  height: 100vh;
   background-color: var(--dp01);
 }
 
@@ -154,6 +166,12 @@ body{
 }
 .text p{
   padding: 10px;
+}
+
+.music-square{
+  flex: 1 1 0px;
+  background-color: white;
+  margin: 5px;
 }
 
 

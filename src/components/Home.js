@@ -26,6 +26,22 @@ export default class Home extends React.Component {
                     <div className="container1">
                         <div className="box-single">
                             <h2>Music</h2>
+                            <div className="container2">
+                                <div className="music-square">
+                                    <p>album</p>
+                                    {/*img*/}
+                                    <div className="hover-btn">
+                                    {/*    play btn*/}
+                                    </div>
+                                </div>
+                                <div className="music-square">
+                                    <p>album</p>
+                                    {/*img*/}
+                                    <div className="hover-btn">
+                                    {/*    play btn*/}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="container1">
@@ -44,4 +60,5 @@ export default class Home extends React.Component {
         );
     }
 }
+
 
