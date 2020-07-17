@@ -133,16 +133,19 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  /*padding-left: 2%;*/
+  /*padding-top: 2%;*/
+  /*padding-bottom: 2%;*/
 }
 .bio{
   background-color: var(--dp04);
-  margin: 10px;
+  /*margin-right: 2%;*/
   flex: 1 1 0px;
   color: white;
 }
 .updates{
   background-color: var(--dp04);
-  margin: 10px;
+  /*margin-right: 2%;*/
   flex: 1 1 0px;
   color: white;
 }
@@ -151,6 +154,7 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
 }
 
 .box-single{
@@ -165,13 +169,32 @@ body{
   background-color: var(--dp06);
 }
 .text p{
-  padding: 10px;
+  padding: 5px;
 }
 
 .music-square{
-  flex: 1 1 0px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 0px;
   background-color: white;
-  margin: 5px;
+  min-width: 10rem;
 }
+
+.music-square > img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.margin-parent{
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.margin-child{
+  margin-right: 2%;
+}
+
 
 
