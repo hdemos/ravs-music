@@ -176,13 +176,15 @@ body{
   flex-shrink: 1;
   flex-grow: 1;
   flex-basis: 0px;
-  background-color: white;
   min-width: 10rem;
+  border-radius: 10px;
 }
 
 .music-square > img{
   max-width: 100%;
   max-height: 100%;
+  border-radius: 10px;
+
 }
 
 
@@ -194,6 +196,15 @@ body{
 
 .margin-child{
   margin-right: 2%;
+}
+
+.img-parent{
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.img-child{
+  margin-right: 5%;
 }
 
 

@@ -32,14 +32,14 @@ export default class Home extends React.Component {
                     <div className="container1 ">
                         <div className="box-single">
                             <h2>Music</h2>
-                            <div className="container2 margin-parent">
-                                <div className="music-square margin-child">
+                            <div className="container2 img-parent">
+                                <div className="music-square img-child">
                                     <img className="music-img" src={tangled} label="Musician Ravs first album release: Tangled" alt="warm self portrait with a string of lights tangled in her hair "  />
                                     <div className="hover-btn">
                                     {/*    play btn*/}
                                     </div>
                                 </div>
-                                <div className="music-square margin-child"  >
+                                <div className="music-square img-child"  >
                                     <img className="music-img" src={tangled} label="Musician Ravs first album release: Tangled" alt="warm self portrait with a string of lights tangled in her hair "  />
                                     <div className="hover-btn">
                                     {/*    play btn*/}
