@@ -7,9 +7,9 @@ export default class Home extends React.Component {
         return (
             <div className="main-body">
                 <div className="page-content">
-                <div>
-                    <h1>Home Page</h1>
-                </div>
+                {/*<div>*/}
+                {/*    <h1>Home Page</h1>*/}
+                {/*</div>*/}
                     <div className="container1">
                         <div className="box-single">
                             <div className="container2 margin-parent">
