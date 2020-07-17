@@ -42,37 +42,5 @@ function App() {
   </Router>
   );
 }
-//
-// function Home() {
-//   return(
-//       <div>
-//         <h2>Home</h2>
-//       </div>
-//   )
-// }
-
-// function About() {
-//   return(
-//       <div>
-//         <h2>About</h2>
-//       </div>
-//   )
-// }
-//
-// function Music() {
-//   return(
-//       <div>
-//         <h2>Music</h2>
-//       </div>
-//   )
-// }
-//
-// function Shows() {
-//   return(
-//       <div>
-//         <h2>Shows</h2>
-//       </div>
-//   )
-// }
 
 export default App;

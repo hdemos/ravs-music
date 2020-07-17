@@ -6,9 +6,11 @@ export const colors ={
     yellow: '#fddd48',
     green: '#39d98a',
     teal: '#73dee6',
+    seafoam: '#03dac6',
     blue: '#3e7bfa',
     darkNavy: '#04264c',
-    purple: '#ac5dd9',
+    purple: '#bb86fc',
+    darkPurple: '#3700b3',
     white: '#f5f6fd',
     lightGray: '#9e9e9e',
     darkGrey: '#54575E',
@@ -21,7 +23,9 @@ export const colors ={
 
     gradient: {
         lightPurple: 'linear-gradient(90deg, rgba(78, 113, 251, 1) 0%, rgb(158, 155, 255, 1) 100%)'
-    }
+    },
 
 }
+
+
 

@@ -1,3 +1,33 @@
+/*@import url('./src/utils/styles/helpers.js');*/
+
+:root {
+  --background: #121212;
+  --surface: #121212;
+  --on-primary: #000000;
+  --dp00: #121212;
+  --dp01: #1E1E1E;
+  --dp03: #232323;
+  --dp04: #272727;
+  --dp06: #2C2C2C;
+  --dp08: #2E2E2E;
+  --dp12: #333333;
+  --dp16: #363636;
+  --dp24: #383838;
+  --text: #ffffff;
+}
+
+/*
+text on dark background
+#ffffff
+high emphasis=87% opacity
+medium emphasis=60%
+disabled=38%
+*/
+
+.nav-bar{
+  color: var(--dp04);
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +65,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  color: var(--background);
+}
+.main-body{
+  align-items: center;
+  align-content: center;
+}
+
+.page-content{
+  display: inline-block;
+  width: 80vw;
+  height: 100vh;
+  color: var(--dp01);
 }
