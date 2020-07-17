@@ -94,20 +94,23 @@ li{
   font-family: barricada-pro,serif;
   font-weight: 400;
   font-style: normal;
+
 }
 
 a{
   text-decoration: none;
+  padding: 5%;
+  border-radius: 4px;
 }
 a:link, a:visited{
   list-style-type: none;
   flex: 1;
-  color: white;
+
 }
 
 a:hover, a:active{
-  /*background-color: blue;*/
-  color: red;
+  /*background-color: var(--dp03);*/
+  /*filter: brightness(6);*/
 }
 
 .li-1:link, .li-1:visited{
@@ -121,6 +124,38 @@ a:hover, a:active{
 }
 .li-4:link, .li-4:visited{
   color: var(--green);
+}
+
+.li-1:hover, .li-1:active{
+  color: var(--yellow);
+  filter: brightness(140%);
+}
+.li-2:hover, .li-2:active{
+  color: var(--blue);
+}
+.li-3:hover, .li-3:active{
+  color: var(--red);
+}
+.li-4:hover, .li-4:active{
+  color: var(--green);
+}
+
+#circle-spacing{
+  height: 5vh;
+  background-color: var(--dp24);
+  display: flex;
+  flex-direction: row;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.img-circle{
+  border-radius: 50%;
+  height: 25vw;
+}
+
+.circle{
+  margin-top: -7em;
 }
 
 

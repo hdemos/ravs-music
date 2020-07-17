@@ -7,14 +7,27 @@ import Home from "./components/Home";
 import Music from "./components/Music";
 import Shows from "./components/Shows";
 
+import profile from "./utils/img/ravs-musician-profile-picture.jpg";
+
 function App() {
   return (
   <Router>
     <div className="App">
-      <h1>Ravs Website</h1>
       <nav>
-        <div className="nav-bar">
+        <div id="circle-spacing">
+          {/*placeholder for spacing*/}
           <div className="nav-space"></div>
+        </div>
+        <div id="circle-spacing">
+          {/*placeholder for spacing*/}
+          <div className="nav-space"></div>
+        </div>
+        <div className="nav-bar">
+          <div className="nav-space">
+            <div className="circle">
+              <img className="img-circle" src={profile} />
+            </div>
+          </div>
           <div id="nav-list">
             <ul>
               <li ><Link to="/" className="li-1">Home</Link></li>
@@ -25,9 +38,7 @@ function App() {
           </div>
 
         </div>
-        <div id="circle-spacing">
-          <div className="nav-space"></div>
-        </div>
+
       </nav>
         <Switch>
           <Route exact path="/">
