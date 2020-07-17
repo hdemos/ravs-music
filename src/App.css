@@ -27,11 +27,40 @@ disabled=38%
 h1{
   color: var(--text-light);
 }
+h2{
+  color: var(--text-light);
+}
+h3{
+  color: var(--text-light);
+}
+h4{
+  color: var(--text-light);
+}
+h5{
+  color: var(--text-light);
+}
 
+ul{
+  display: flex;
+  flex-direction: row;
+}
+li{
+  list-style-type: none;
+  flex: 1;
+  color: white;
+}
+
+Link{
+  list-style-type: none;
+  flex: 1;
+  color: white;
+  font-size: 20px;
+}
 
 .nav-bar{
-  color: var(--dp04);
+  background-color: var(--dp24);
 }
+
 
 .App {
   text-align: center;
@@ -117,6 +146,14 @@ body{
   margin: 10px;
   flex: 1 1 0px;
   color: white;
+}
+
+.text {
+  padding: 10px;
+  background-color: var(--dp06);
+}
+.text p{
+  padding: 10px;
 }
 
 

@@ -13,12 +13,14 @@ function App() {
     <div className="App">
       <h1>Ravs Website</h1>
       <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/music">Music</Link></li>
-          <li><Link to="/shows">Shows</Link></li>
-        </ul>
+        <div className="nav-bar">
+          <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/music">Music</Link></li>
+            <li><Link to="/shows">Shows</Link></li>
+          </ul>
+        </div>
 
         <Switch>
           <Route exact path="/">
