@@ -1,8 +1,19 @@
-import React from "react";
+import React, {Component} from "react";
 import "../App.css";
 import tangled from "../utils/img/ravs-tangled-album.jpg";
+import Popup from "./Popup";
 
-export default class Home extends React.Component {
+export default class Home extends Component {
+    constructor(props){
+        super(props);
+        this.state = {showPopup: false};
+    }
+
+    togglePopup(){
+        this.setState({
+            showPopup: !this.state.showPopup
+        });
+    }
     render() {
         return (
             <div className="main-body">
@@ -51,7 +62,18 @@ export default class Home extends React.Component {
                     <div className="container1">
                         <div className="box-single">
                             <h2>Email Action</h2>
-                            <h3>Call to Action</h3>
+                            <div className="popup-div">
+                                <button onClick={this.togglePopup.bind(this)}> Yes </button>
+
+                                {this.state.showPopup ?
+                                    <Popup
+                                        text='Click "Close Button" to hide popup'
+                                        closePopup={this.togglePopup.bind(this)}
+                                    />
+                                    : null
+                                }
+                            </div>
+                            <div className="cta-space"/>
                         </div>
                     </div>
                     <div className="container-col">

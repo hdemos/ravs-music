@@ -6,37 +6,15 @@ import About from "./components/About";
 import Home from "./components/Home";
 import Music from "./components/Music";
 import Shows from "./components/Shows";
-import Popup from "./components/Popup";
 
 import profile from "./utils/img/ravs-musician-profile-picture.jpg";
 
 class App extends Component {
-  constructor(props){
-    super(props);
-    this.state = {showPopup: false};
-  }
-
-  togglePopup(){
-    this.setState({
-      showPopup: !this.state.showPopup
-    });
-  }
 
   render() {
     return (
     <Router>
       <div className="App">
-        <div className="popup-div">
-          <button onClick={this.togglePopup.bind(this)}> Click To Launch Popup</button>
-
-          {this.state.showPopup ?
-              <Popup
-                  text='Click "Close Button" to hide popup'
-                  closePopup={this.togglePopup.bind(this)}
-              />
-              : null
-          }
-        </div>
         <nav>
           <div id="circle-spacing">
             {/*placeholder for spacing*/}
@@ -49,7 +27,7 @@ class App extends Component {
           <div className="nav-bar">
             <div className="nav-space">
               <div className="circle">
-                <img className="img-circle" src={profile} />
+                <img className="img-circle" src={profile} alt="ravs profile headshot" />
               </div>
             </div>
             <div id="nav-list">
