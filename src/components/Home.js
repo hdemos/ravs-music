@@ -29,7 +29,7 @@ export default class Home extends React.Component {
                         </div>
                     </div>
 
-                    <div className="container1 ">
+                    <div className="container1 .shadow">
                         <div className="box-single">
                             <h2>Music</h2>
                             <div className="container2 img-parent">

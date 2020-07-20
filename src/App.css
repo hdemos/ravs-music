@@ -45,6 +45,12 @@ medium emphasis=60%
 disabled=38%
 */
 
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
 h1{
   font-family: 'Open Sans', sans-serif;
   color: var(--text-light);
@@ -128,16 +134,24 @@ a:hover, a:active{
 
 .li-1:hover, .li-1:active{
   color: var(--yellow);
-  filter: brightness(140%);
+  filter: brightness(150%);
+  text-decoration: underline;
 }
 .li-2:hover, .li-2:active{
   color: var(--blue);
+  filter: brightness(150%);
+  text-decoration: underline;
+
 }
 .li-3:hover, .li-3:active{
   color: var(--red);
+  filter: brightness(150%);
+  text-decoration: underline;
 }
 .li-4:hover, .li-4:active{
   color: var(--green);
+  filter: brightness(150%);
+  text-decoration: underline;
 }
 
 #circle-spacing{
@@ -300,6 +314,29 @@ body{
 }
 .img-child{
   margin-right: 5%;
+}
+
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup\_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  border-radius: 20px;
+  background: white;
 }
 
 
