@@ -15,6 +15,7 @@ class App extends Component {
     return (
     <Router>
       <div className="App">
+        {/*TODO: add banner picture*/}
         <nav>
           <div id="circle-spacing">
             {/*placeholder for spacing*/}

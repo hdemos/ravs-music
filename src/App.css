@@ -347,5 +347,11 @@ body{
 
 }
 
+.update-box{
+  margin: 10px;
+  background-color: var(--dp03);
+  border-radius: 5px;
+}
+
 
 

@@ -32,8 +32,15 @@ export default class Home extends Component {
                                 </div>
                                 <div className="updates margin-child">
                                     <h2>Updates</h2>
+                                    {/*TODO: create update format for music updates*/}
                                     <div className="text">
-                                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                        <div className="update-box">
+                                            <p>"Lorem ipsum dolor sit amet."</p>
+                                        </div>
+                                        <div className="update-box">
+                                            <p>"Lorem ipsum dolor sit amet, consectetur a."</p>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -43,6 +50,8 @@ export default class Home extends Component {
                     <div className="container1 .shadow">
                         <div className="box-single">
                             <h2>Music</h2>
+                            {/*TODO: add play button overlay
+                            TODO: add play button link to play preview or spotify?*/}
                             <div className="container2 img-parent">
                                 <div className="music-square img-child">
                                     <img className="music-img" src={tangled} label="Musician Ravs first album release: Tangled" alt="warm self portrait with a string of lights tangled in her hair "  />
@@ -61,7 +70,12 @@ export default class Home extends Component {
                     </div>
                     <div className="container1">
                         <div className="box-single">
-                            <h2>Email Action</h2>
+                            <h2>Get exclusive content</h2>
+                            <p>Join our mailing list to get updates and exclusive content.  </p>
+                            <p>By submitting this form you agree to receive our updates via email.</p>
+                            {/*TODO: plan email CTA
+                            TODO: plan button color scheme
+                            TODO: email CTA smart trigger: after a time period*/}
                             <div className="popup-div">
                                 <button onClick={this.togglePopup.bind(this)}> Yes </button>
 
